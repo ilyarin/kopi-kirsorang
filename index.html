@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kopi Kirsorang</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">kopi<span>kirsorang</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i class="bi bi-search"></i></a>
+        <a href="#" id="shopping-cart-button"><i class="bi bi-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i class="bi bi-list"></i></a>
+      </div>
+
+      <!-- Search Form Start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i class="bi bi-search"></i></label>
+      </div>
+      <!-- Search Form End -->
+
+      <!-- Shopping Cart Start -->
+      <div class="shopping-cart">
+        <!-- Kopi Tubruk Cart Start -->
+        <div class="cart-item">
+          <img src="img/menu/kopi-tubruk.jpg" alt="Kopi Tubruk" />
+          <div class="item-detail">
+            <h3>Kopi Tubruk</h3>
+            <div class="item-price">IDR 10K</div>
+          </div>
+          <i class="bi bi-trash remove-item"></i>
+        </div>
+        <!-- Kopi Tubruk Cart End -->
+
+        <!-- Espresso Cart Start -->
+        <div class="cart-item">
+          <img src="img/menu/espresso.jpg" alt="Espresso" />
+          <div class="item-detail">
+            <h3>Espresso</h3>
+            <div class="item-price">IDR 15K</div>
+          </div>
+          <i class="bi bi-trash remove-item"></i>
+        </div>
+        <!-- Espresso Cart End -->
+
+        <!-- Americano Cart Start -->
+        <div class="cart-item">
+          <img src="img/menu/americano.jpeg" alt="Americano" />
+          <div class="item-detail">
+            <h3>Americano</h3>
+            <div class="item-price">IDR 20K</div>
+          </div>
+          <i class="bi bi-trash remove-item"></i>
+        </div>
+        <!-- Americano Cart End -->
+
+        <!-- Latte Cart Start -->
+        <div class="cart-item">
+          <img src="img/menu/latte.jpg" alt="Latte" />
+          <div class="item-detail">
+            <h3>Latte</h3>
+            <div class="item-price">IDR 25K</div>
+          </div>
+          <i class="bi bi-trash remove-item"></i>
+        </div>
+        <!-- Latte Cart End -->
+
+        <!-- Mocha Cart Start -->
+        <div class="cart-item">
+          <img src="img/menu/mocha.jpg" alt="Mocha" />
+          <div class="item-detail">
+            <h3>Mocha</h3>
+            <div class="item-price">IDR 25K</div>
+          </div>
+          <i class="bi bi-trash remove-item"></i>
+        </div>
+        <!-- Mocha Cart End -->
+
+        <!-- Cappuccino Cart Start -->
+        <div class="cart-item">
+          <img src="img/menu/cappuccino.jpg" alt="Cappuccino" />
+          <div class="item-detail">
+            <h3>Cappuccino</h3>
+            <div class="item-price">IDR 25K</div>
+          </div>
+          <i class="bi bi-trash remove-item"></i>
+        </div>
+        <!-- Cappuccino Cart End -->
+
+        <!-- Macchiato Cart Start -->
+        <div class="cart-item">
+          <img src="img/menu/macchiato.jpg" alt="Macchiato" />
+          <div class="item-detail">
+            <h3>Macchiato</h3>
+            <div class="item-price">IDR 20K</div>
+          </div>
+          <i class="bi bi-trash remove-item"></i>
+        </div>
+        <!-- Macchiato Cart End -->
+
+        <!-- Affogato Cart Start -->
+        <div class="cart-item">
+          <img src="img/menu/affogato.jpg" alt="Affogato" />
+          <div class="item-detail">
+            <h3>Affogato</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i class="bi bi-trash remove-item"></i>
+        </div>
+        <!-- Affogato Cart End -->
+      </div>
+      <!-- Shopping Cart End -->
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Nikmatnya <span>Ngopi</span> Sorangan</h1>
+        <p>
+          Duduk menyendiri, hirup aroma kopi, temukan inspirasi di keheningan
+          yang damai dan nikmati.
+        </p>
+        <a href="#menu" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/tentang-kami.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih kopi kami?</h3>
+          <p>
+            Karena setiap tegukannya bikin nagih! Terbuat dari biji kopi pilihan
+            ahli yang disangrai pas, sampai aroma dan rasanya nendang banget dan
+            siap jadi sahabat di tiap momen santaimu.
+          </p>
+          <p>
+            Kopi kami juga bukan sekedar minuman, Dengan aroma yang bikin rileks
+            dan rasa yang pas di lidah, setiap cangkir menghadirkan sensasi yang
+            berbeda. Mau kopi yang bikin hari kamu makin seru? Cobain menu Kopi
+            <span>Kirsorang</span>!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Menu Section Start -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        Nikmati pilihan kopi terbaik kami, setiap cangkir dibuat untuk
+        melengkapi hari-harimu dengan rasa yang tak terlupakan. Pilih sesuai
+        selera!
+      </p>
+
+      <div class="row">
+        <!-- Menu Kopi Tubruk Start -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i class="bi bi-cart"></i></a>
+            <a href="#" class="item-detail-button-tubruk"
+              ><i class="bi bi-eye"></i
+            ></a>
+          </div>
+          <div class="menu-image">
+            <img
+              src="img/menu/kopi-tubruk.jpg"
+              alt="Kopi Tubruk"
+              class="menu-card-img"
+            />
+          </div>
+          <div class="menu-content">
+            <h3 class="menu-card-title">Kopi Tubruk</h3>
+            <div class="menu-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="menu-price">IDR 10K</div>
+          </div>
+        </div>
+        <!-- Menu Kopi Tubruk End -->
+
+        <!-- Menu Espresso Start -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i class="bi bi-cart"></i></a>
+            <a href="#" class="item-detail-button-espresso"
+              ><i class="bi bi-eye"></i
+            ></a>
+          </div>
+          <div class="menu-image">
+            <img
+              src="img/menu/espresso.jpg"
+              alt="Espresso"
+              class="menu-card-img"
+            />
+          </div>
+          <div class="menu-content">
+            <h3 class="menu-card-title">Espresso</h3>
+            <div class="menu-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <div class="menu-price">IDR 15K</div>
+          </div>
+        </div>
+        <!-- Menu Espresso End -->
+
+        <!-- Menu Americano Start -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i class="bi bi-cart"></i></a>
+            <a href="#" class="item-detail-button-americano"
+              ><i class="bi bi-eye"></i
+            ></a>
+          </div>
+          <div class="menu-image">
+            <img
+              src="img/menu/americano.jpeg"
+              alt="Americano"
+              class="menu-card-img"
+            />
+          </div>
+          <div class="menu-content">
+            <h3 class="menu-card-title">Americano</h3>
+            <div class="menu-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <div class="menu-price">IDR 20K</div>
+          </div>
+        </div>
+        <!-- Menu Americano End -->
+
+        <!-- Menu Latte Start -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i class="bi bi-cart"></i></a>
+            <a href="#" class="item-detail-button-latte"
+              ><i class="bi bi-eye"></i
+            ></a>
+          </div>
+          <div class="menu-image">
+            <img src="img/menu/latte.jpg" alt="Latte" class="menu-card-img" />
+          </div>
+          <div class="menu-content">
+            <h3 class="menu-card-title">Latte</h3>
+            <div class="menu-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+            <div class="menu-price">IDR 25K</div>
+          </div>
+        </div>
+        <!-- Menu Latte End -->
+
+        <!-- Menu Mocha Start -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i class="bi bi-cart"></i></a>
+            <a href="#" class="item-detail-button-mocha"
+              ><i class="bi bi-eye"></i
+            ></a>
+          </div>
+          <div class="menu-image">
+            <img src="img/menu/mocha.jpg" alt="Mocha" class="menu-card-img" />
+          </div>
+          <div class="menu-content">
+            <h3 class="menu-card-title">Mocha</h3>
+            <div class="menu-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <div class="menu-price">IDR 25K</div>
+          </div>
+        </div>
+        <!-- Menu Mocha End -->
+
+        <!-- Menu Cappuccino Start -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i class="bi bi-cart"></i></a>
+            <a href="#" class="item-detail-button-cappuccino"
+              ><i class="bi bi-eye"></i
+            ></a>
+          </div>
+          <div class="menu-image">
+            <img
+              src="img/menu/cappuccino.jpg"
+              alt="Cappuccino"
+              class="menu-card-img"
+            />
+          </div>
+          <div class="menu-content">
+            <h3 class="menu-card-title">Cappuccino</h3>
+            <div class="menu-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <div class="menu-price">IDR 25K</div>
+          </div>
+        </div>
+        <!-- Menu Cappuccino End -->
+
+        <!-- Menu Macchiato Start -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i class="bi bi-cart"></i></a>
+            <a href="#" class="item-detail-button-macchiato"
+              ><i class="bi bi-eye"></i
+            ></a>
+          </div>
+          <div class="menu-image">
+            <img
+              src="img/menu/macchiato.jpg"
+              alt="Macchiato"
+              class="menu-card-img"
+            />
+          </div>
+          <div class="menu-content">
+            <h3 class="menu-card-title">Macchiato</h3>
+            <div class="menu-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <div class="menu-price">IDR 20K</div>
+          </div>
+        </div>
+        <!-- Menu Macchiato End -->
+
+        <!-- Menu Affogato Start -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i class="bi bi-cart"></i></a>
+            <a href="#" class="item-detail-button-affogato"
+              ><i class="bi bi-eye"></i
+            ></a>
+          </div>
+          <div class="menu-image">
+            <img
+              src="img/menu/affogato.jpg"
+              alt="Affogato"
+              class="menu-card-img"
+            />
+          </div>
+          <div class="menu-content">
+            <h3 class="menu-card-title">Affogato</h3>
+            <div class="menu-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="menu-price">IDR 30K</div>
+          </div>
+        </div>
+        <!-- Menu Affogato End -->
+      </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>Perlu bantuan? Yuk hubungi kontak kami dibawah!</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.35615666938122!2d117.17659472115407!3d-0.44403302867429434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df5d6264d4508bb%3A0x108deb5bced82c3b!2sMie%20Ayam%20Bakar%20Lokka%20Jaya!5e0!3m2!1sid!2sid!4v1731115081047!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i class="bi bi-person"></i>
+            <input type="text" placeholder="Nama" required />
+          </div>
+          <div class="input-group">
+            <i class="bi bi-envelope"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i class="bi bi-telephone"></i>
+            <input type="text" placeholder="No HP" readonly />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/shd_hs/" target="_blank"
+          ><i class="bi bi-instagram"></i
+        ></a>
+
+        <a href="https://www.facebook.com/syahdihs" target="_blank"
+          ><i class="bi bi-facebook"></i
+        ></a>
+
+        <a href="https://www.youtube.com/@shd4591" target="_blank"
+          ><i class="bi bi-youtube"></i
+        ></a>
+
+        <a
+          href="https://www.tiktok.com/@ilyarinx?_t=8pMFIgpi5Ug&_r=1"
+          target="_blank"
+          ><i class="bi bi-tiktok"></i
+        ></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>
+          Created by
+          <a href="https://www.instagram.com/shd_hs/" target="_blank">@shd_hs</a
+          >. | &copy; 2024
+        </p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Modal Box Item Detail Start -->
+    <!-- Modal Box Kopi Tubruk Start -->
+    <div class="modal" id="item-detail-modal-tubruk">
+      <div class="modal-container">
+        <a href="#"><i class="bi bi-x close-icon"></i></a>
+        <div class="modal-content">
+          <img src="img/menu/kopi-tubruk.jpg" alt="Kopi Tubruk" />
+          <div class="menu-content">
+            <h3>Kopi Tubruk</h3>
+            <p>
+              Kopi Tubruk, rasa asli Nusantara. Diseduh langsung, tanpa filter,
+              menghasilkan aroma khas dan rasa kopi yang kuat di setiap tegukan.
+            </p>
+            <div class="menu-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="menu-price">IDR 10K</div>
+            <a href="#"><i class="bi bi-cart"></i><span>Add to Cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Kopi Tubruk End -->
+
+    <!-- Modal Box Espresso Start -->
+    <div class="modal" id="item-detail-modal-espresso">
+      <div class="modal-container">
+        <a href="#"><i class="bi bi-x close-icon"></i></a>
+        <div class="modal-content">
+          <img src="img/menu/espresso.jpg" alt="Espresso" />
+          <div class="menu-content">
+            <h3>Espresso</h3>
+            <p>
+              Espresso kami dibuat dari biji kopi pilihan, menghadirkan rasa
+              yang kaya dan aroma yang menggugah, sempurna untuk memulai hari
+              penuh energi.
+            </p>
+            <div class="menu-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <div class="menu-price">IDR 15K</div>
+            <a href="#"><i class="bi bi-cart"></i><span>Add to Cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Espresso End -->
+
+    <!-- Modal Box Americano Start -->
+    <div class="modal" id="item-detail-modal-americano">
+      <div class="modal-container">
+        <a href="#"><i class="bi bi-x close-icon"></i></a>
+        <div class="modal-content">
+          <img src="img/menu/americano.jpeg" alt="Americano" />
+          <div class="menu-content">
+            <h3>Americano</h3>
+            <p>
+              Americano kami punya rasa kopi yang kuat tapi tetap smooth. Cocok
+              buat kamu yang butuh kesegaran dan semangat ekstra, tanpa rasa
+              terlalu pekat. Pas buat hari sibuk!
+            </p>
+            <div class="menu-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <div class="menu-price">IDR 20K</div>
+            <a href="#"><i class="bi bi-cart"></i><span>Add to Cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Americano End -->
+
+    <!-- Modal Box Latte Start -->
+    <div class="modal" id="item-detail-modal-latte">
+      <div class="modal-container">
+        <a href="#"><i class="bi bi-x close-icon"></i></a>
+        <div class="modal-content">
+          <img src="img/menu/latte.jpg" alt="Latte" />
+          <div class="menu-content">
+            <h3>Latte</h3>
+            <p>
+              Nikmati sensasi creamy dari Latte kami! Kombinasi espresso kuat
+              dan susu lembutnya siap bikin harimu lebih berwarna dan penuh
+              semangat di setiap tegukan!
+            </p>
+            <div class="menu-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+            <div class="menu-price">IDR 25K</div>
+            <a href="#"><i class="bi bi-cart"></i><span>Add to Cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Latte End -->
+
+    <!-- Modal Box Mocha Start -->
+    <div class="modal" id="item-detail-modal-mocha">
+      <div class="modal-container">
+        <a href="#"><i class="bi bi-x close-icon"></i></a>
+        <div class="modal-content">
+          <img src="img/menu/mocha.jpg" alt="Mocha" />
+          <div class="menu-content">
+            <h3>Mocha</h3>
+            <p>
+              Mocha, perpaduan sempurna antara kopi dan cokelat yang creamy.
+              Rasanya lembut dengan sedikit manis, cocok buat kamu yang cari
+              kenikmatan kopi yang beda.
+            </p>
+            <div class="menu-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <div class="menu-price">IDR 25K</div>
+            <a href="#"><i class="bi bi-cart"></i><span>Add to Cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Mocha End -->
+
+    <!-- Modal Box Cappuccino Start -->
+    <div class="modal" id="item-detail-modal-cappuccino">
+      <div class="modal-container">
+        <a href="#"><i class="bi bi-x close-icon"></i></a>
+        <div class="modal-content">
+          <img src="img/menu/cappuccino.jpg" alt="Cappuccino" />
+          <div class="menu-content">
+            <h3>Cappuccino</h3>
+            <p>
+              Cappuccino kami punya rasa yang lembut dan creamy, dengan
+              perpaduan pas antara espresso dan susu berbusa. Cocok buat pecinta
+              kopi yang suka cita rasa seimbang.
+            </p>
+            <div class="menu-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <div class="menu-price">IDR 25K</div>
+            <a href="#"><i class="bi bi-cart"></i><span>Add to Cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Cappuccino End -->
+
+    <!-- Modal Box Macchiato Start -->
+    <div class="modal" id="item-detail-modal-macchiato">
+      <div class="modal-container">
+        <a href="#"><i class="bi bi-x close-icon"></i></a>
+        <div class="modal-content">
+          <img src="img/menu/macchiato.jpg" alt="Macchiato" />
+          <div class="menu-content">
+            <h3>Macchiato</h3>
+            <p>
+              Macchiato kami punya cita rasa khas dengan perpaduan espresso kuat
+              dan sedikit susu. Cocok banget buat kamu yang suka kopi beraroma
+              tajam tapi tetap creamy.
+            </p>
+            <div class="menu-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <div class="menu-price">IDR 20K</div>
+            <a href="#"><i class="bi bi-cart"></i><span>Add to Cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Macchiato End -->
+
+    <!-- Modal Box Affogato Start -->
+    <div class="modal" id="item-detail-modal-affogato">
+      <div class="modal-container">
+        <a href="#"><i class="bi bi-x close-icon"></i></a>
+        <div class="modal-content">
+          <img src="img/menu/affogato.jpg" alt="Affogato" />
+          <div class="menu-content">
+            <h3>Affogato</h3>
+            <p>
+              Affogato kami, perpaduan espresso hangat dengan es krim vanila
+              lembut, memberikan sensasi manis-pahit yang segar. Cocok dinikmati
+              kapan saja untuk momen relaksasi sempurna.
+            </p>
+            <div class="menu-stars">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="menu-price">IDR 30K</div>
+            <a href="#"><i class="bi bi-cart"></i><span>Add to Cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Affogato End -->
+    <!-- Modal Box Item Detail End -->
+
+    <!-- My JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
